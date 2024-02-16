@@ -1,0 +1,42 @@
+Login Details
+
+Login Details for admin : admin/Test@12345
+
+Login Details for doctor :
+
+Dr. Michael Barley
+michael@gmail.com
+michael1234
+
+Dr. Kate Eliott
+kate@gmail.com
+kate1234
+
+Dr. Roger Lubin
+roger@gmail.com
+roger1234
+
+Dr. Peter Darcy
+peter@gmail.com
+peter1234
+
+Dr. Dorothy Smith
+dorothy@gmail.com
+dorothy1234
+
+/////User//////////
+
+test@test.com
+Test@123
+
+user@test.com   
+User@123
+
+test@user.com   
+Test@111
+
+fizep@gmail.com 
+FizeP@123
+
+ana@gmail.com
+Ana@1234

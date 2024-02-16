@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background-color: #fff !important;
+}
+
+
+.img-session {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.text-session h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    color: #fff;
+    /* Text color */
+    text-align: left;
+    z-index: 1;
+    /* Make sure the text is above the overlay */
+    max-width: 600px;
+    font-size: 4.5rem;
+}
+
+.container-block {
+    background-color: #fff;
+}
+
+.name {
+    color: #252525;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI"; */
+}
+
+.position {
+    color: #252525;
+}
+
+
+.container-about {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-image {
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2rem;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #2E8BC0;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+    text-indent: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .about {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .about-image {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .about-image img {
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .about-image img {
+        height: 15rem;
+    }
+
+    .about-content h2 {
+        font-size: 2rem;
+    }
+}
